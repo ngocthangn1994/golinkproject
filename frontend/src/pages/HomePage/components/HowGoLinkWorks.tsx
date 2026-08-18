@@ -1,7 +1,6 @@
 import golinkShortcut from "../../../assets/golink_howitworks_shortcut.png";
 import golinkCheck from "../../../assets/golink_check.png";
 import golinkSearch from "../../../assets/golink_howitwork_search.png";
-import { IoCheckmarkDoneSharp } from "react-icons/io5";
 
 function HowGoLinkWorks() {
   const list = [
