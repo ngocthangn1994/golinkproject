@@ -8,7 +8,7 @@
   "license": "ISC",
   "author": "ngoc nguyen",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
