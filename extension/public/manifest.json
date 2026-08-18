@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GoLink",
+  "version": "1.0.0",
+  "description": "Open GoLink shortcuts directly from the browser address bar.",
+
+  "omnibox": {
+    "keyword": "go"
+  },
+
+  "action": {
+    "default_title": "GoLink",
+    "default_popup": "popup.html"
+  },
+  "permission": ["tabs"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+
+  "host_permissions": ["http://localhost:3500/*"]
+}
