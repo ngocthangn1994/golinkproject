@@ -12,11 +12,11 @@
     "default_title": "GoLink",
     "default_popup": "popup.html"
   },
-  "permission": ["tabs"],
+  "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js",
     "type": "module"
   },
 
-  "host_permissions": ["http://localhost:3500/*"]
+  "host_permissions": ["https://golink-backend-0vo1.onrender.com/*"]
 }
