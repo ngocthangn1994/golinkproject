@@ -28,7 +28,7 @@ function HowGoLinkWorks() {
       <div className="text-center text-slate-600">
         <p className="text-4xl font-bold text-slate-900">How GoLink works</p>
         <p className="text-2xl">Three simple steps to faster browsing</p>
-        <div className="grid grid-cols-3 gap-10 px-10 py-5">
+        <div className="md:grid grid-cols-3 gap-10 px-10 py-5">
           {list.map((item) => (
             <Card optional="shadow">
               <span className="text-4xl px-5 font-bold py-2 rounded-full bg-blue-100 text-blue-900">

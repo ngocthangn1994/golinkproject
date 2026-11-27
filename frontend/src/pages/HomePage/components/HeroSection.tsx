@@ -1,6 +1,6 @@
 import golinkHerosection from "../../../assets/golink_herosection.png";
 import { FcFlashOn } from "react-icons/fc";
-import { FaChrome } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 import { MdOutlineSlowMotionVideo } from "react-icons/md";
 import { FaCheckCircle } from "react-icons/fa";
 import { FaUnlockAlt } from "react-icons/fa";
@@ -32,8 +32,8 @@ function HeroSection() {
             <p>and Golink takes you there instantly</p>
           </div>
           <div className="grid grid-cols-2 gap-5 font-medium">
-            <div className="bg-blue-600 text-white p-2 rounded-xl flex items-center gap-3 hover:bg-blue-700">
-              <FaChrome className="w-10 h-10 text-sky-300" />
+            <div className="bg-blue-500 text-white p-2 rounded-xl flex items-center gap-3 hover:bg-blue-600">
+              <FcGoogle className="w-10 h-10 text-sky-300" />
               <p>Add to Chrome - It's Free</p>
             </div>
             <div className="bg-white border border-slate-200 p-2 rounded-xl flex items-center gap-3 shadow-sm hover:shadow-lg">

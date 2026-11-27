@@ -14,7 +14,7 @@ const PopupShowCase = () => {
           <img className="w-150 object-cover h-auto" src={popUpShowCase} />
         </div>
         <div className="w-lg space-y-10 ">
-          <p className="text-6xl font-bold text-slate-900">
+          <p className="text-5xl font-bold text-slate-900">
             Your shortcuts, <br />
             all in one popup.
           </p>

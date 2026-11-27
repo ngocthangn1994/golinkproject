@@ -1,4 +1,4 @@
-import { FaChrome } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
 
 function BrowserFaster() {
   return (
@@ -9,10 +9,10 @@ function BrowserFaster() {
           <p>Join thousands of users who save time with Golink</p>
         </div>
         <div>
-          <div className="flex items-center gap-3 text-xl bg-blue-600 w-sm p-3 rounded-xl hover:bg-blue-700">
-            <FaChrome className="text-sky-300 w-15 h-15" />
+          <div className="flex items-center gap-3 text-xl bg-blue-500 w-sm p-3 rounded-xl hover:bg-blue-600">
+            <FcGoogle className="text-sky-300 w-15 h-15" />
             <button className="text-white font-medium">
-              Add to Chrome - It's free{" "}
+              Add to Chrome - It's free
             </button>
           </div>
         </div>

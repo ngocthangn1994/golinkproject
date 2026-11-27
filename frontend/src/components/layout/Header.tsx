@@ -1,5 +1,6 @@
 import Logo from "./Logo";
-import { FaChrome } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+
 import { NavLink } from "react-router";
 
 function Header() {
@@ -47,9 +48,9 @@ function Header() {
           <button
             type="button"
             onClick={handleAddToChrome}
-            className="flex items-center gap-3 bg-blue-600 text-white p-3 rounded-xl hover:shadow-sm hover:bg-blue-700"
+            className="flex items-center gap-3 bg-blue-500 text-white p-3 rounded-xl hover:shadow-sm hover:bg-blue-600"
           >
-            <FaChrome className="text-sky-300 w-10 h-10" />
+            <FcGoogle className="text-sky-300 w-10 h-10" />
             <span>Add to Chrome</span>
           </button>
         </div>

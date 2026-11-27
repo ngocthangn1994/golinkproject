@@ -1,4 +1,4 @@
-const API_URL = "https://golink-backend-0vo1.onrender.com";
+const API_URL = "https://golink-backend-0vo1.onrender.com/api/v1";
 type Link = {
   _id: string;
   shortUrl: string;
