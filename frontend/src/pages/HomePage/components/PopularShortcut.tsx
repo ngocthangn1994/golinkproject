@@ -44,9 +44,9 @@ function PopularShortCut() {
           Your favorite sites. Your own shortcuts.
         </p>
         <p className="mb-10 text-2xl">Chose words that make sense to you.</p>
-        <div className="grid grid-cols-5 gap-5 items-center">
+        <div className="md:grid grid-cols-5 gap-5 items-center">
           {menu.map((item) => (
-            <Card optional="p-2 flex flex-col items-center">
+            <Card optional="p-2 flex flex-col items-center hover:shadow-md">
               <span>{item.icon}</span>
               <p className="text-blue-600 font-bold text-xl">{item.keyword}</p>
               <p>{item.url}</p>

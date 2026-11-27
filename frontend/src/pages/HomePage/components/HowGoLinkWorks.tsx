@@ -30,8 +30,8 @@ function HowGoLinkWorks() {
         <p className="text-2xl">Three simple steps to faster browsing</p>
         <div className="md:grid grid-cols-3 gap-10 px-10 py-5">
           {list.map((item) => (
-            <Card optional="shadow">
-              <span className="text-4xl px-5 font-bold py-2 rounded-full bg-blue-100 text-blue-900">
+            <Card optional="shadow hover:shadow-lg">
+              <span className="text-4xl px-5 font-bold py-2 rounded-full bg-blue-100 text-blue-900 hover:text-blue-600 hover:bg-blue-200">
                 {item.stt}
               </span>
               <div className="mt-5 space-y-2">

@@ -22,9 +22,11 @@ function HeroSection() {
               Browser faster with Golink
             </p>
           </div>
-          <div className="text-8xl font-bold space-y-1">
-            <p>Stop typing URLs.</p>
-            <p className="text-blue-600">Just type a word.</p>
+          <div className="text-7xl font-bold space-y-1">
+            <p>
+              Stop typing URLs. <br />
+              <span className="text-blue-600">Just type a word.</span>
+            </p>
           </div>
           <div className="space-y-1">
             <p>Create simple shortcuts for the websites you use every day.</p>
@@ -32,7 +34,7 @@ function HeroSection() {
             <p>and Golink takes you there instantly</p>
           </div>
           <div className="grid grid-cols-2 gap-5 font-medium">
-            <div className="bg-blue-500 text-white p-2 rounded-xl flex items-center gap-3 hover:bg-blue-600">
+            <div className="bg-blue-500 text-white p-2 rounded-xl flex items-center gap-3 hover:bg-blue-600 cursor-pointer">
               <FcGoogle className="w-10 h-10 text-sky-300" />
               <p>Add to Chrome - It's Free</p>
             </div>
@@ -51,7 +53,7 @@ function HeroSection() {
           </div>
         </div>
         <div>
-          <img className="w-200 h-auto object-cover" src={golinkHerosection} />
+          <img className="w-160 h-auto object-cover" src={golinkHerosection} />
         </div>
       </div>
     </>
