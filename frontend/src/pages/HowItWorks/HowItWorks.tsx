@@ -1,6 +1,6 @@
 import Header from "../../components/layout/Header";
 import Footer from "../../components/layout/Footer";
-import HeroSection from "./components/HeroSection";
+import HeroSection from "../HowItWorks/components/HeroSection";
 import AddGolynk from "./components/AddGolynk";
 import OpenExtension from "./components/OpenExtension";
 import CreateShortCut from "./components/CreateShortCut";
