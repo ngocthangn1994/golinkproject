@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import { FcGoogle } from "react-icons/fc";
-
 import { NavLink } from "react-router";
 
 function Header() {
@@ -43,8 +42,6 @@ function Header() {
         </div>
 
         <div className="flex gap-10 items-center">
-          <p className="hover:font-bold cursor-pointer">Log in</p>
-
           <button
             type="button"
             onClick={handleAddToChrome}
