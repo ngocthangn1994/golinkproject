@@ -14,7 +14,7 @@ function HeroSection() {
   ];
   return (
     <>
-      <div className="grid grid-cols-2 px-10 text-slate-600 text-xl">
+      <div className="grid grid-cols-2 gap-20 px-10 text-slate-600 text-xl">
         <div className="space-y-10">
           <div className="flex items-center bg-blue-50 rounded-xl py-2 w-sm justify-center">
             <FcFlashOn className="w-8 h-8" />
@@ -51,7 +51,7 @@ function HeroSection() {
           </div>
         </div>
         <div>
-          <img src={golinkHerosection} />
+          <img className="w-200 h-auto object-cover" src={golinkHerosection} />
         </div>
       </div>
     </>

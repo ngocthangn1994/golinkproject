@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+import Header from "../../components/layout/Header";
 import HeroSection from "./components/Herosection";
 import Information from "./components/Information";
 function About() {

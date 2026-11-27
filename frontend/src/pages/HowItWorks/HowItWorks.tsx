@@ -1,5 +1,5 @@
 import HeroSection from "../HowItWorks/components/Herosection";
-import Header from "../../components/Header";
+import Header from "../../components/layout/Header";
 import Footer from "./components/Footer";
 function HowItWorks() {
   return (

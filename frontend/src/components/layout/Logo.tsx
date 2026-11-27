@@ -1,4 +1,4 @@
-import logo from "../assets/golink_logo.png";
+import logo from "../../assets/golink_logo.png";
 import { NavLink } from "react-router";
 function Logo() {
   return (
