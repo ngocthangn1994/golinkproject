@@ -1,5 +1,5 @@
 import Badge from "../../../components/ui/Badge";
-import Sizes from "../../../components/ui/sizes";
+import sizes from "../../../components/ui/sizes";
 import keywordNavigation from "../../../assets/keyword-navigation.png";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const CustomKeyword = () => {
             KEYWORD NAVIGATION
           </Badge>
           <div className="mt-3 w-md">
-            <p className={Sizes.md}>Open your saved destination directly.</p>
+            <p className={sizes.md}>Open your saved destination directly.</p>
             <p>
               Use a saved keyword in Chrome's address bar to reach the website
               connected to it.

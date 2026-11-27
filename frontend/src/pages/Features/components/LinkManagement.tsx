@@ -1,5 +1,5 @@
 import Badge from "../../../components/ui/Badge";
-import Sizes from "../../../components/ui/sizes";
+import sizes from "../../../components/ui/sizes";
 import customLink from "../../../assets/recent_link.png";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -16,7 +16,7 @@ const LinkManagement = () => {
             LINK MANAGEMENT
           </Badge>
           <div className="mt-3 w-md">
-            <p className={Sizes.md}>Keep your saved links easy to find.</p>
+            <p className={sizes.md}>Keep your saved links easy to find.</p>
             <p>
               See your shortcuts and their destination URLs togetherin Recent
               Links. Remove a shortcut when you no longer need it.

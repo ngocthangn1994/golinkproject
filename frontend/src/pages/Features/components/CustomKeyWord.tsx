@@ -1,5 +1,5 @@
 import Badge from "../../../components/ui/Badge";
-import Sizes from "../../../components/ui/sizes";
+import sizes from "../../../components/ui/sizes";
 import customLink from "../../../assets/golink_custom_keyword.png";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -16,7 +16,7 @@ const CustomKeyword = () => {
             CUSTOM KEYWORDS
           </Badge>
           <div className="mt-3 w-md">
-            <p className={Sizes.md}>Give every link a name you remember.</p>
+            <p className={sizes.md}>Give every link a name you remember.</p>
             <p>
               Save a keyword alongside a destination URL, so your favorite
               websites are easier to reach.

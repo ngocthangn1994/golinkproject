@@ -1,5 +1,5 @@
 import Badge from "../../../components/ui/Badge";
-import Sizes from "../../../components/ui/sizes";
+import sizes from "../../../components/ui/sizes";
 import keywordNavigation from "../../../assets/click_count.png";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -18,7 +18,7 @@ const ClickCount = () => {
             CLICK COUNTS
           </Badge>
           <div className="mt-3 w-md">
-            <p className={Sizes.md}>See a simple count for each link.</p>
+            <p className={sizes.md}>See a simple count for each link.</p>
             <p>
               Check the click count beside a saved shortcut, right inside the
               extension.
