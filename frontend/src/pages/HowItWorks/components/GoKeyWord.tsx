@@ -23,7 +23,7 @@ const GoKeyWord = () => {
             </p>
             <p>Your saved keyword takes you straight to its website.</p>
           </div>
-          <img className="w-100 object-cover h-auto" src={goKeyword} />
+          <img className="w-120 object-cover h-auto" src={goKeyword} />
         </Card>
       </div>
     </>

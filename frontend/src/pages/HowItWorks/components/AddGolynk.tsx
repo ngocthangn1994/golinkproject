@@ -29,7 +29,7 @@ const AddGolynk = () => {
               <span className="text-white">Add to Chrome</span>
             </Button>
           </div>
-          <img className="w-100 object-cover h-auto" src={addGolynk} />
+          <img className="w-120 object-cover h-auto" src={addGolynk} />
         </Card>
       </div>
     </>

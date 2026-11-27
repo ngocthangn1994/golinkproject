@@ -25,7 +25,7 @@ const CreateShortCut = () => {
               <span>amazon - https://www.amazon.com/</span>
             </Badge>
           </div>
-          <img className="w-100 object-cover h-auto" src={createShortCut} />
+          <img className="w-120 object-cover h-auto" src={createShortCut} />
         </Card>
       </div>
     </>

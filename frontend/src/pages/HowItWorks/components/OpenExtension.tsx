@@ -24,7 +24,7 @@ const OpenExtension = () => {
               <span>Pink Golynk to keep it within easy reach</span>
             </Badge>
           </div>
-          <img className="w-100 object-cover h-auto" src={openExtension} />
+          <img className="w-120 object-cover h-auto" src={openExtension} />
         </Card>
       </div>
     </>
