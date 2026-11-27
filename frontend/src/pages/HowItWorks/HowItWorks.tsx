@@ -6,7 +6,6 @@ function HowItWorks() {
     <>
       <div className="space-y-10">
         <Header />
-
         <Footer />
       </div>
     </>
