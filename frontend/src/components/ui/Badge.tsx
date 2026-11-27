@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 type BadgeProp = {
   children: ReactNode;
   size: "sm" | "md" | "lg";
-  style: "primary" | "secondary" | "none_outline";
+  style?: "primary" | "secondary" | "none_outline";
   optional?: string;
 };
 
@@ -22,7 +22,9 @@ const Badge = ({ children, size, style, optional }: BadgeProp) => {
   };
   return (
     <>
-      <span className={`${sizes[size]} ${styles[style]} ${optional}`}>
+      <span
+        className={`${sizes[size]} ${styles[style ?? "none_outline"]} ${optional}`}
+      >
         {children}
       </span>
     </>

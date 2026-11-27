@@ -1,6 +1,6 @@
-import HeroSection from "../HowItWorks/components/Herosection";
 import Header from "../../components/layout/Header";
-import Footer from "./components/Footer";
+import Footer from "../../components/layout/Footer";
+import HeroSection from "./components/HeroSection";
 function HowItWorks() {
   return (
     <>
