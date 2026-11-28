@@ -14,7 +14,7 @@ function Footer() {
   ];
   return (
     <>
-      <div className="px-10 text-slate-600 grid grid-cols-3 items-center">
+      <div className="px-10 text-slate-600 grid grid-cols-3 items-center border-t border-slate-200">
         <div>
           <Logo />
           <p className="w-xs">
