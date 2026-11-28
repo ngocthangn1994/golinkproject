@@ -57,12 +57,13 @@ function HeroSection() {
             <div className="space-y-3">
               <p>
                 GoLink was created with a simple mission: to make link sharing
-                faster, easier, and more powerful for everyone.
+                faster, easier, and <br /> more powerful for everyone.
               </p>
               <p>
                 Whether you're sharing with friends, growing your business, or
-                building your brand, GoLink, gives you the tools you need to
-                shorten, customized, and track your links with confidens
+                building your brand,
+                <br /> GoLink, gives you the tools you need to shorten,
+                customized, and track your links with confidens
               </p>
             </div>
           </div>

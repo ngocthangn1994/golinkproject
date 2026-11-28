@@ -38,7 +38,12 @@ function Footer() {
         <div className="flex flex-col">
           <p className="font-bold">Company</p>
           {companyMenu.map((item) => (
-            <NavLink to={item.path}>
+            <NavLink
+              to={item.path}
+              className={({ isActive }) =>
+                isActive ? "text-blue-600" : "text-slate-600"
+              }
+            >
               <button>{item.name}</button>
             </NavLink>
           ))}
