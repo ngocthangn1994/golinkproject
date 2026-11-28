@@ -12,7 +12,7 @@ const PrivacyPage = () => {
       <div className="space-y-5">
         <Header />
         <HeroSection />
-        <div className="grid grid-cols-[0.2fr_0.8fr]">
+        <div className="md:grid grid-cols-[0.2fr_0.8fr]">
           <div className="p-3">
             <SideBar />
           </div>
