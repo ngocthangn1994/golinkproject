@@ -36,7 +36,7 @@ function Header() {
                 isActive ? "text-blue-600" : "text-slate-600"
               }
             >
-              <button className="hover:font-bold">{item.name}</button>
+              <button className="hover:text-slate-900">{item.name}</button>
             </NavLink>
           ))}
         </div>
